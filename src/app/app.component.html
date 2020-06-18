@@ -86,10 +86,25 @@
   <div class="tp-wrapper" >
 	<div class="tp-box" (click)="toggleFlip()" [@flipState]="flip">
 		<div class="tp-box__side tp-box__front">
-      Click here to view Open Positions
+      <div class="shadow-xl">
+        <span class="op"><u>Click here to view Open Positions</u></span>
+        </div>
+
 		</div>
-		<div class="tp-box__side tp-box__back">Back
+		<div class="tp-box__side tp-box__back">
+        <div class="shadow-xl">
+            <div style="text-align:left;line-height:35px; margin-bottom:50px;">
+              <small class="time">Posted 10 days ago</small><br>
+              <small class="po">IT Manager</small><br>
+              <small class="time">IT - London, England - Full Time</small>
+                <hr style="  border-top: 1px dashed black;">
+              <small class="time">Posted 10 days ago</small><br>
+              <small class="po">Senior Product Designer</small><br>
+              <small class="time">Design - London, England - Full Time</small>
+            </div>
+        </div>
 		</div>
 	</div>
 </div>
 </div>
+<div style="height:100px;" >&nbsp;</div>

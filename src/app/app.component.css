@@ -272,3 +272,19 @@ i {
       transform         : rotateY(-180deg);
     }
 
+    .shadow-xl{
+      background-color: white;
+      box-shadow: -5px -5px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+    .op{
+      color:#212121;
+    }
+    .time{
+      color:grey;
+      font-size:12px;
+      margin-left: 4%;
+    }
+    .po{
+      margin-left: 4%;
+      color:yellowgreen;
+    }
